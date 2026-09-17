@@ -1,0 +1,4 @@
+#!/bin/sh
+# Local GARUDA launcher; no install, network access or global changes.
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd) || exit 1
+exec node "$ROOT/tools/garuda-cli/garuda.mjs" "$@"
