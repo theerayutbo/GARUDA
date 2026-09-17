@@ -188,7 +188,10 @@ test('no unchanged Realtime tool definition drifts silently', () => {
     .digest('hex')
     .slice(0, 16);
   // ALPR intentionally extends the two layer enums; retain the complete pin.
-  assert.equal(digest, '6963175a0c9a76de', 'an unchanged Realtime tool definition drifted');
+  // 2026-09-18: the Bangkok city preset joined the `locationId` enums, which
+  // moves `control_radio` — the one tool in the unchanged set that carries
+  // that enum. Deliberate, so the pin is re-derived rather than excluded.
+  assert.equal(digest, '8263688cb723dca7', 'an unchanged Realtime tool definition drifted');
 });
 
 test('Radio volume and mission speed share the Sharpen slider visual language', () => {

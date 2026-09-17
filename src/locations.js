@@ -514,6 +514,61 @@ export const CITY_POIS = {
       },
     ],
   },
+  bangkok: {
+    name: 'Bangkok',
+    groundElevation: 2,
+    viewBounds: {
+      southwest: { lat: 13.6, lng: 100.38 },
+      northeast: { lat: 13.87, lng: 100.67 },
+    },
+    pois: [
+      {
+        name: 'Wat Arun',
+        lat: 13.7437,
+        lon: 100.4889,
+        alt: 500,
+        pitch: -25,
+        heading: 270,
+        buildingHeight: 70,
+      },
+      {
+        name: 'Grand Palace / Wat Phra Kaew',
+        lat: 13.7502,
+        lon: 100.4914,
+        alt: 700,
+        pitch: -32,
+        heading: 180,
+        buildingHeight: 30,
+      },
+      {
+        name: 'King Power Mahanakhon',
+        lat: 13.7226,
+        lon: 100.5285,
+        alt: 900,
+        pitch: -20,
+        heading: 30,
+        buildingHeight: 300,
+      },
+      {
+        name: 'Baiyoke Tower II',
+        lat: 13.7546,
+        lon: 100.5404,
+        alt: 900,
+        pitch: -20,
+        heading: 200,
+        buildingHeight: 290,
+      },
+      {
+        name: 'ICONSIAM',
+        lat: 13.7263,
+        lon: 100.51,
+        alt: 700,
+        pitch: -25,
+        heading: 280,
+        buildingHeight: 70,
+      },
+    ],
+  },
 };
 
 /**

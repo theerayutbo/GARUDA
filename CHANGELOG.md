@@ -1,5 +1,11 @@
 # Changelog
 
+- Add Bangkok to the destination presets: a city pill over Wat Arun, the Grand
+  Palace, King Power Mahanakhon, Baiyoke Tower II and ICONSIAM, with the
+  hand-tuned camera pose each landmark reuses when it is typed or spoken
+  instead of the geocoded administrative box. `bangkok` joins the voice
+  `locationId` arguments, which re-pins the Realtime tool digests.
+
 - Distinguish PARTIAL vessel snapshots from STALE data in the layer panel, with
   accepted-record counts and unchanged retention, freshness and outage safeguards.
 

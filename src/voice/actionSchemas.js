@@ -17,6 +17,7 @@ const schemas = [
             'paris',
             'dubai',
             'dc',
+            'bangkok',
           ],
         },
         query: {
@@ -68,6 +69,7 @@ const schemas = [
             'paris',
             'dubai',
             'dc',
+            'bangkok',
           ],
         },
         locationQuery: {
@@ -492,6 +494,7 @@ const schemas = [
             'paris',
             'dubai',
             'dc',
+            'bangkok',
           ],
         },
         locationQuery: {
