@@ -12,3 +12,9 @@ output/
 3d-models/
 pinokio/ENVIRONMENT
 pinokio/.installed
+
+# GEV MCP bridge: installed by `garuda mcp install`, removed by `garuda mcp uninstall`
+src/gevMcpBridge.mjs
+
+# oh-my-claude operational state
+.omc/

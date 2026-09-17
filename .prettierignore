@@ -20,3 +20,6 @@ node_modules
 .vite
 .vite-*
 *.min.js
+
+# GEV MCP bridge is verified by a sha256 manifest; formatting it breaks garuda mcp uninstall
+src/gevMcpBridge.mjs
