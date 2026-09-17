@@ -1,6 +1,9 @@
 node_modules
 dist
 .env
+# Any dotenv variant, including timestamped backups holding real keys.
+.env.*
+!.env.example
 *.log
 screenshots/
 qa-shots/
